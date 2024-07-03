@@ -6,7 +6,7 @@
 /*   By: fracurul <fracurul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 17:17:34 by fracurul          #+#    #+#             */
-/*   Updated: 2024/07/01 17:48:59 by fracurul         ###   ########.fr       */
+/*   Updated: 2024/07/03 15:49:11 by fracurul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,6 @@ typedef struct t_game
 {
 	char		**map;
 	mlx_t		*mlx;
-	mlx_image_t *score;
 	t_player	*player;
 	t_texture	*textures;
 	int			n_rows;
